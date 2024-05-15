@@ -3,16 +3,13 @@ body{
     margin: 0px;
 }
 
-.foto-principal{
-    margin: 24px;
-    margin-bottom: 24px;
-}
-
 .container{
     padding: 24px;
-
+    
     margin-left: auto;
     margin-right: auto;
+    margin-top: 219px;
+    margin-bottom: 219px;
 
     width: 90%;
     max-width: 384px;
@@ -27,22 +24,18 @@ body{
     box-shadow: 10px 10px 3px black;
 }
 
-h1{
+.conteudo h1{
     font-size: 25px;
 }
 
-p{
+.conteudo p{
     color: gray;
 }
 
-h2{ 
+.aprendizado{ 
     padding-top: 8px;
     padding-left: 12px;
     padding-right: 12px;
-
-
-    margin-top: 1px;
-    margin-bottom:12px;
 
     height: 29px;
     width: 82px;
@@ -55,7 +48,7 @@ h2{
     font-size: 16px;
 }
 
-h3{
+.data{
     margin-top: 12px;
     margin-bottom: 12px;
     font-size: 15px;
@@ -78,11 +71,46 @@ h3{
     box-sizing: border-box;
     display: inline-block;
     height: 200px;
+
     margin-left: auto;
     margin-right: auto;
+    margin: 0;
 }
 
+@media (max-width: 414px) {
+    .foto img{
+        width:322px;
+    }
+}
+
+@media (max-width: 412px) {
+    .foto img{
+        width:320px;
+    }
+}
+
+@media (max-width: 390px) {
+    .foto img{
+        width:299px;
+    }
+}
+
+@media (max-width: 375px) {
+    .foto img{
+        width:285px;
+    }
+}
+
+@media (max-width: 360px) {
+    .foto img{
+        width:275px;
+    }
+}
+
+
+
 .p{
+    margin-left: 12px;
     display: inline-block;
     justify-content: center;
     color: black;
